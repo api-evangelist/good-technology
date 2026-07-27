@@ -1,8 +1,25 @@
 aid: good-technology
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/good-technology.png
 name: Good Technology
-description: 'Good Technology is a company surfaced as a portfolio company of kleiner-perkins and added
-  to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Good Technology was an enterprise mobile security company whose Good Dynamics platform
+  provided app-level encryption, data loss prevention, secure inter-app communication, and a secure
+  application-development SDK/API used by ISVs, systems integrators, and enterprises to build secured
+  mobile apps across iOS and Android. The company served more than 6,200 organizations, including over
+  half of the Fortune 100. Good Technology was acquired by BlackBerry in October 2015 for approximately
+  $425 million and folded into BlackBerry''s enterprise mobility (UEM) portfolio; it no longer operates
+  as an independent entity and its former developer surface (good.com) now redirects to blackberry.com.
+  This profile is retained as a historical company record in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/good-technology/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +27,29 @@ x-backed-by:
 - kleiner-perkins
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: blackberry
+x-acquired-date: '2015-10-30'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Enterprise
+- Mobile Security
+- Enterprise Mobility
+- Mobile Application Management
+- Mobile Device Management
+- Application Security
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
